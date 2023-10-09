@@ -17,6 +17,12 @@ body:
       description: Copy/paste the original message from the support channel.
 
   - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug Description & Reproduction Steps
+      description: Provide a description of the bug, as well as the steps required to reproduce it.
+
+  - type: textarea
     id: environment
     attributes:
       label: Environment
