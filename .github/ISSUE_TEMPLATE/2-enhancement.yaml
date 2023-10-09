@@ -1,0 +1,28 @@
+name: 🪄 Enhancement 
+description: Create a technical specification for an enhancement and/or change to an existing feature.
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Conversations
+      description: Provide links to any relevant references and/or conversations.
+
+  - type: textarea
+    id: proposed_changes
+    attributes:
+      label: Proposed Changes
+      description: Describe the changes that will be made to enhance/change the feature.
+
+  - type: textarea
+    id: design_specifications
+    attributes:
+      label: Design Specifications
+      description: List the specifications for the design of the enhancement/change as provided by the designer.
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Related Issues & Dependencies
+      description: List any related issues & dependencies.

@@ -1,0 +1,44 @@
+name: ✨ Epic
+description: Large task or a feature that should be split into multiple sub-tasks.
+body:
+  - type: textarea
+    id: references
+    attributes:
+      label: References & Conversations
+      description: Provide links to any relevant references and/or conversations.
+
+  - type: textarea
+    id: feature_overview
+    attributes:
+      label: Feature Overview
+      description: Provide an overview of the feature to be implemented.
+
+  - type: textarea
+    id: user_requirements
+    attributes:
+      label: User Requirements
+      description: List the requirements for the feature as provided by the project manager.
+
+  - type: textarea
+    id: design_specifications
+    attributes:
+      label: Design Specifications
+      description: List the specifications for the design of the feature as provided by the designer.
+
+  - type: textarea
+    id: technical_implementation
+    attributes:
+      label: Technical Implementation
+      description: Describe how the feature will be implemented from a technical perspective.
+
+  - type: textarea
+    id: tasks_fe
+    attributes:
+      label: List of the front-end tasks
+      description: List of the front-end tasks that should be completed to finish the epic.
+
+  - type: textarea
+    id: tasks_be
+    attributes:
+      label: List of the back-end tasks
+      description: List of the back-end tasks that should be completed to finish the epic.
