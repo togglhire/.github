@@ -24,4 +24,4 @@
 <!--- After creating the PR, go over all the following points, and put an `x` in all the boxes that apply. -->
 * [ ] Have you used keywords to automatically close the related issue when the PR is merged?
 * [ ] Have you added this PR to the Backlog project, and filled out all the relevant fields?
-* [ ] If you are reviewer, have you assigned yourself to this PR?
+* [ ] If you are a reviewer, have you assigned yourself to this PR?
