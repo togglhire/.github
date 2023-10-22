@@ -5,22 +5,10 @@ labels:
 
 body:
   - type: textarea
-    id: references
-    attributes:
-      label: References & Conversations
-      description: Provide links to any relevant references and/or conversations.
-
-  - type: textarea
     id: bug_description
     attributes:
       label: Bug Description & Reproduction Steps
       description: Provide a description of the bug, as well as the steps required to reproduce it.
-
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: Describe the environment in which the bug was observed (e.g. browser version, operating system).
 
   - type: textarea
     id: screenshots
@@ -29,7 +17,7 @@ body:
       description: Attach any relevant screenshots and/or log files.
 
   - type: textarea
-    id: dependencies
+    id: references
     attributes:
-      label: Related Issues & Dependencies
-      description: List any related issues & dependencies.
+      label: References
+      description: Provide links to any relevant references, conversations, related issues and dependencies.

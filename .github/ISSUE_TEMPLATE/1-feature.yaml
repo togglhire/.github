@@ -4,12 +4,6 @@ labels:
   - feature
 body:
   - type: textarea
-    id: references
-    attributes:
-      label: References & Conversations
-      description: Provide links to any relevant references and/or conversations.
-
-  - type: textarea
     id: feature_overview
     attributes:
       label: Feature Overview
@@ -22,7 +16,7 @@ body:
       description: List the specifications for the design of the feature as provided by the designer.
 
   - type: textarea
-    id: dependencies
+    id: references
     attributes:
-      label: Related Issues & Dependencies
-      description: List any related issues & dependencies.
+      label: References
+      description: Provide links to any relevant references, conversations, related issues and dependencies.

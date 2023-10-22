@@ -5,12 +5,6 @@ labels:
 
 body:
   - type: textarea
-    id: references
-    attributes:
-      label: References & Conversations
-      description: Provide links to any relevant references and/or conversations.
-
-  - type: textarea
     id: task_description
     attributes:
       label: Task Description
@@ -23,7 +17,7 @@ body:
       description: Describe the potential impact of the task on the project, including any risks or benefits.
 
   - type: textarea
-    id: dependencies
+    id: references
     attributes:
-      label: Related Issues & Dependencies
-      description: List any related issues & dependencies.
+      label: References
+      description: Provide links to any relevant references, conversations, related issues and dependencies.

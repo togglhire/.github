@@ -4,12 +4,6 @@ labels:
   - refactor
 body:
   - type: textarea
-    id: references
-    attributes:
-      label: References & Conversations
-      description: Provide links to any relevant references and/or conversations.
-
-  - type: textarea
     id: current_code
     attributes:
       label: Current Code
@@ -28,7 +22,7 @@ body:
       description: List any potential risks or drawbacks of the refactoring.
 
   - type: textarea
-    id: dependencies
+    id: references
     attributes:
-      label: Related Issues & Dependencies
-      description: List any related issues & dependencies.
+      label: References
+      description: Provide links to any relevant references, conversations, related issues and dependencies.

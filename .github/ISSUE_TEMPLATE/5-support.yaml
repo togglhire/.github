@@ -7,7 +7,7 @@ body:
   - type: input
     id: support_ticket
     attributes:
-      label: Support channel ticket
+      label: Support Channel Ticket
       description: Link to the support channel ticket.
 
   - type: textarea
@@ -23,19 +23,13 @@ body:
       description: Provide a description of the bug, as well as the steps required to reproduce it.
 
   - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: Describe the environment in which the bug was observed (e.g. browser version, operating system).
-
-  - type: textarea
     id: screenshots
     attributes:
       label: Screenshots/Log Files
       description: Attach any relevant screenshots and/or log files.
 
   - type: textarea
-    id: dependencies
+    id: references
     attributes:
-      label: Related Issues & Dependencies
-      description: List any related issues & dependencies
+      label: References
+      description: Provide links to any relevant references, conversations, related issues and dependencies.
